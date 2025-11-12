@@ -73,15 +73,15 @@ Crie um arquivo `.env` na raiz do projeto:
 
 ```env
 # Backend
-PORT=3000
+PORT=3001
 
 # Database
 DATABASE_TYPE=lowdb
 DATABASE_URI=./db.json
 
 # Frontend
-NEXT_PUBLIC_API_URL=http://localhost:3000/api
-NEXT_PUBLIC_SOCKET_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=http://localhost:3001/api
+NEXT_PUBLIC_SOCKET_URL=http://localhost:3001
 ```
 
 **Tipos de Storage Disponíveis:**

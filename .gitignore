@@ -1,0 +1,41 @@
+# Dependencies
+node_modules
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+*.js.map
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+db.json
+*.db
+*.sqlite
+
+# Next.js
+.next/
+out/
+build
+.swc/
+
+# Nx
+.nx/cache
+.nx/workspace-data
+
+# IDE
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# E2E
+/playwright-report/
+/playwright/.cache/
